@@ -1,5 +1,88 @@
-.main {
+.conatiner {
+  background: #eeeeee;
+  display: flex;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  justify-content: center;
+  align-content: center;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  right: 0;
+  flex-direction: column;
+}
+.content {
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.view_username {
+  height: 80%;
+  width: 10%;
+  justify-content: flex-start;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  .txt_user {
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+  .txt_username {
+    font-family: sans-serif;
+    color: #b0b0b0;
+    justify-self: start;
+  }
+}
+
+.view_header {
+  height: 30vh;
+  width: 100%;
+  background-color: #e5e5e5;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  .view_description_user {
+    height: 50%;
+    width: 10%;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  .view_imguser {
+    height: 50%;
+    width: 10%;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-content: center;
+  }
+  // .view_user {
+  //   height: 30vh;
+  //   width: 100%;
+  //   display: flex;
+  //   justify-content: center;
+  //   align-items: center;
+  //   flex-direction: row;
+  //   .user_img {
+  //     height: 80px;
+  //     width: 80px;
+  //     justify-content: center;
+  //     align-content: center;
+  //   }
+  // }
+}
+
+.view_middle {
+  height: 150%;
+  width: 100%;
+  display: flex;
+  position: absolute;
 }

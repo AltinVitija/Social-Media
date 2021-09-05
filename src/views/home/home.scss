@@ -1,5 +1,6 @@
-.home {
+.container {
   background: #eeeeee;
+  display: flex;
   min-height: 100vh;
   min-width: 100%;
   position: absolute;
@@ -7,4 +8,94 @@
   margin: 0;
   top: 0;
   right: 0;
+  flex-direction: column;
+}
+.view_header {
+  background: white;
+  min-height: 10vh;
+  min-width: 100%;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  right: 0;
+  box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+
+
+.view_card {
+  height: 20vh;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+}
+
+.view_inerinput {
+  background-color: white;
+  border-radius: 10px;
+  height: 10vh;
+  width: 40%;
+  justify-content: center;
+  align-content: center;
+  margin-top: 3%;
+  box-shadow: 2px 2px 2px 2px #ccc;
+  display: flex;
+  flex-direction: column;
+}
+.view_post {
+  height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.view_imguser {
+  height: 50px;
+  width: 7%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: absolute;
+  margin-top: 1px;
+
+  .profileimg {
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+  }
+}
+
+.view_input {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  border: none;
+  height: 50%;
+  width: 100%;
+  .input {
+    width: 70%;
+    height: 40px;
+    display: flex;
+    border-radius: 20px;
+    outline: none;
+    background: #eeeeee;
+    border-color: #eeeeee;
+    border: 0;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #191919;
+    padding-left: 10px;
+  }
+}
+
+.view_listpost {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }

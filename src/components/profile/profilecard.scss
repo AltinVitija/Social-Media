@@ -2,23 +2,261 @@
   height: 100%;
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 3%;
-}
-
-.card {
-  height: 60vh;
-  width: 70%;
-  background-color: white;
-  justify-content: center;
-  align-items: center;
-  border-radius: 25px;
-}
-
-.listdata {
   flex-direction: column;
+  align-items: center;
+  top: 0;
+}
+
+.view_header {
+  background: white;
+  min-height: 10vh;
+  min-width: 100%;
+  padding: 0;
+  margin: 0;
+  top: 0;
+  right: 0;
+  box-shadow: 1px 1px 1px 1px #ccc;
+}
+.header {
+  height: 30%;
+  width: 100%;
+  background-color: #e5e5e5;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  .view_router {
+    height: 20%;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+    .nav {
+      flex-direction: row;
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+  .content_header {
+    flex-direction: row;
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+  }
+  .view_userdata {
+    height: 100%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    .txt_name {
+      font-size: 20px;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: #222222;
+    }
+    .txt_username {
+      font-size: 16px;
+      font-family: sans-serif;
+      color: #c7c7c7;
+    }
+  }
+  .view_profile {
+    height: 40%;
+    width: 10%;
+    justify-content: center;
+    align-items: center;
+    .profileimg {
+      height: 80px;
+      width: 80px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.view_card {
+  flex-direction: row;
+  height: 38vh;
+  width: 40%;
+  background-color: white;
+  border-radius: 15px;
+  display: flex;
+  margin-top: 5%;
+}
+.view_right {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .view_right_right {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .txt_Email {
+      font-size: 15px;
+      font-family: sans-serif;
+      color: #c9c9c9;
+      padding: 20px;
+    }
+  }
+  .view_right_middle {
+    height: 70%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    .txt_Adress {
+      font-size: 15px;
+      font-family: sans-serif;
+      color: #c9c9c9;
+    }
+  }
+  .view_right_left {
+    flex-direction: column;
+    height: 34%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    .txt_Phone {
+      font-size: 15px;
+      font-family: sans-serif;
+      color: #c9c9c9;
+      margin-bottom: 20px;
+    }
+    .txt_Website {
+      font-size: 15px;
+      font-family: sans-serif;
+      color: #c9c9c9;
+      margin-bottom: 20px;
+    }
+    .txt_Company {
+      font-size: 15px;
+      font-family: sans-serif;
+      color: #c9c9c9;
+      margin-bottom: 20px;
+    }
+  }
+}
+.view_left {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+  .view_left_right {
+    height: 40%;
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+    .txt_Email {
+      font-size: 15px;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: black;
+      padding: 20px;
+    }
+  }
+  .view_left_middle {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-self: flex-start;
+    justify-content: flex-start;
+    margin-right: 50%;
+
+    .view_list {
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      display: flex;
+      .txt_Street {
+        font-size: 15px;
+        font-family: sans-serif;
+        color: #c9c9c9;
+        margin-bottom: 5px;
+      }
+      .txt_Suite {
+        font-size: 15px;
+        font-family: sans-serif;
+        color: #c9c9c9;
+        margin-bottom: 5px;
+      }
+      .txt_City {
+        font-size: 15px;
+        font-family: sans-serif;
+        color: #c9c9c9;
+        margin-bottom: 5px;
+      }
+      .txt_ZipCode {
+        font-size: 15px;
+        font-family: sans-serif;
+        color: #c9c9c9;
+        margin-bottom: 5px;
+      }
+    }
+    .view_list_data_name {
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      display: flex;
+      .txt_Adress {
+        font-size: 15px;
+        font-family: sans-serif;
+        font-weight: bold;
+        color: black;
+        margin-bottom: 5px;
+      }
+    }
+  }
+  .view_left_left {
+    flex-direction: column;
+    height: 34%;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+
+    .txt_Phone {
+      font-size: 15px;
+
+      font-family: sans-serif;
+      font-weight: bold;
+      color: black;
+      margin-bottom: 20px;
+    }
+    .txt_Website {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: sans-serif;
+      color: black;
+      margin-bottom: 20px;
+    }
+    .txt_Name_Company {
+      font-size: 15px;
+      font-weight: bold;
+      font-family: sans-serif;
+      color: #c9c9c9;
+      margin-bottom: 26px;
+
+      .txt_Company {
+        font-size: 15px;
+        font-weight: bold;
+        font-family: sans-serif;
+        color: black;
+        margin-left: 20px;
+      }
+    }
+  }
 }

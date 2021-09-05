@@ -1,0 +1,254 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.view_header {
+  background: white;
+  height: 10%;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  margin: 0;
+  top: 0;
+  right: 0;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  justify-content: flex-end;
+  align-items: center;
+
+  .userimg {
+    height: 30px;
+    width: 30px;
+    margin-right: 5vh;
+  }
+}
+
+.view_middle {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2%;
+  .view_input {
+    height: 10%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2%;
+
+    .input {
+      width: 80%;
+      height: 40px;
+      display: flex;
+      border-radius: 20px;
+      outline: none;
+      background: #eeeeee;
+      border-color: #eeeeee;
+      border: 0;
+      font-family: sans-serif;
+      font-size: 17px;
+      color: #191919;
+      padding-left: 10px;
+      margin-right: 40px;
+    }
+    .profileimg {
+      height: 50px;
+      width: 50px;
+    }
+  }
+  .view_card {
+    height: 73%;
+    padding-bottom: 3%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    .view_card_header {
+      height: 13%;
+      width: 98%;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+      border-bottom: 1px solid #e0dede;
+
+      .img_card__header_profile {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        margin-left: 1%;
+      }
+    }
+    .view_card_username {
+      margin-right: 70%;
+      height: 50px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .txt_card_name {
+        font-family: sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: #191919;
+      }
+      .txt_card_username {
+        font-family: sans-serif;
+        font-size: 14px;
+        color: #aaaaaa;
+      }
+    }
+    .view_card_menu {
+      height: 50px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-end;
+
+      .img_card_header_menu {
+        height: 30px;
+        width: 30px;
+        justify-content: flex-end;
+        align-items: flex-end;
+      }
+    }
+  }
+  .view_card_middle {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .view_card_middle_title {
+      height: 100%;
+      width: 80%;
+      align-content: flex-start;
+      flex-direction: column;
+      display: flex;
+      margin-top: 3%;
+      margin-right: 15%;
+      margin-bottom: 5%;
+    }
+    .view_card_middle_title_txt {
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: start;
+      color: #999999;
+      margin-bottom: 2%;
+    }
+    .view_card_middle_title_body {
+      font-family: sans-serif;
+      font-size: 16px;
+      text-align: start;
+      color: #aaaaaa;
+    }
+  }
+  .view_card_middle_input {
+    height: 95%;
+    width: 100%;
+    display: flex;
+    display: flex;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5%;
+
+    .input_card_comment {
+      width: 95%;
+      height: 40px;
+      display: flex;
+      border-radius: 20px;
+      outline: none;
+      background: #eeeeee;
+      border-color: #eeeeee;
+      border: 0;
+      font-family: sans-serif;
+      font-size: 17px;
+      color: #191919;
+      padding-left: 10px;
+    }
+  }
+  .view_card_middle_komente {
+    height: 50%;
+    width: 85%;
+    display: flex;
+    border-bottom: 1px solid #e0dede;
+    justify-content: center;
+    align-self: center;
+
+    .view_card_txtkomente {
+      font-family: sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      color: #aaaaaa;
+      text-align: center;
+    }
+  }
+  .view_card_comments {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    .view_division {
+      height: 25px;
+      width: 50%;
+      border-bottom: 1px solid #e0dede;
+    }
+    .view_card_comment_first {
+      flex-direction: column;
+      height: 60%;
+      width: 75%;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin-left: 15%;
+    }
+    .txt_comment_email {
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      text-align: start;
+      color: #999999;
+      margin-bottom: 1%;
+    }
+    .txt_comment_body {
+      font-family: sans-serif;
+      font-size: 16px;
+      color: #aaaaaa;
+    }
+  }
+
+  .view_card_comment_second {
+    flex-direction: column;
+    height: 90;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 15%;
+    border-bottom: 1px solid #e0dede;
+  }
+  .txt_show_comment {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #f0ad82;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 1%;
+  }
+}
