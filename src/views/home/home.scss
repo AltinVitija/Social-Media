@@ -21,8 +21,6 @@
   box-shadow: 1px 1px 1px 1px #ccc;
 }
 
-
-
 .view_card {
   height: 20vh;
   width: 100%;
@@ -67,29 +65,6 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-  }
-}
-
-.view_input {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  border: none;
-  height: 50%;
-  width: 100%;
-  .input {
-    width: 70%;
-    height: 40px;
-    display: flex;
-    border-radius: 20px;
-    outline: none;
-    background: #eeeeee;
-    border-color: #eeeeee;
-    border: 0;
-    font-family: sans-serif;
-    font-size: 17px;
-    color: #191919;
-    padding-left: 10px;
   }
 }
 

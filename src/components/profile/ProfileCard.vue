@@ -20,9 +20,11 @@
         </div>
       </div>
       <div class="view_router">
-        <div class="nav">
-          <router-link to="/profilepage"> Profili </router-link>
-          <router-link to="/PostPage"> Profili </router-link>
+        <div class="nav" id="nav">
+          <router-link class="txt_profili" to="/ProfilePage"
+            >Profili</router-link
+          >
+          <router-link class="txt_postpage" to="/PostPage">PostPage</router-link>
         </div>
       </div>
       <!-- <router-link to="/profilePage">ProfilePage</router-link>

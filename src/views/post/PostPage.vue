@@ -4,7 +4,7 @@
 
 
 <template>
-  <div class="main">
+  <div class="container">
     <BlogPost />
   </div>
 </template>

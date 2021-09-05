@@ -37,6 +37,23 @@
       flex-direction: row;
       display: flex;
       justify-content: space-between;
+      font-weight: bold;
+      color: #c9c9c9;
+      padding: 30px;
+      .txt_profili {
+        color: #7a7979;
+        margin-right: 5%;
+        color: #e68935;
+
+        font-size: 16px;
+        font-family: sans-serif;
+      }
+      .txt_postpage {
+        color: #7a7979;
+        margin-left: 5%;
+        font-size: 16px;
+        font-family: sans-serif;
+      }
     }
   }
   .content_header {
@@ -70,7 +87,7 @@
   }
   .view_profile {
     height: 40%;
-    width: 10%;
+    width: 7%;
     justify-content: center;
     align-items: center;
     .profileimg {

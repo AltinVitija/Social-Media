@@ -1,0 +1,180 @@
+.container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn {
+  height: 7%;
+  width: 20%;
+  background-color: #cfcbcb;
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #7c7979;
+}
+.view_header {
+  height: 30vh;
+  width: 100%;
+  background-color: #e5e5e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  .view_description_user {
+    height: 50%;
+    width: 10%;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  .view_imguser {
+    height: 50%;
+    width: 10%;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-content: center;
+  }
+}
+
+.view_userdata {
+  height: 100%;
+  width: 10%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  .txt_name {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #222222;
+  }
+  .txt_username {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #c7c7c7;
+  }
+}
+.view_profile {
+  height: 40%;
+  width: 7%;
+  justify-content: center;
+  align-items: center;
+  .profileimg {
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.view_blog_post {
+  height: 60%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .view_blog_posts {
+    height: 40%;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 1%;
+    border-bottom: 1px solid #e0dede;
+
+    .txt_post_title {
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 16px;
+      color: #999999;
+      margin-bottom: 2%;
+    }
+    .txT_post_body {
+      font-family: sans-serif;
+      font-weight: bold;
+      font-size: 13px;
+      color: #aaaaaa;
+    }
+  }
+  .txt_komentet {
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #999999;
+    text-align: center;
+    margin-top: 2%;
+  }
+  .view_card_blog {
+    height: 80%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    .view_top {
+      height: 18%;
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      align-content: center;
+      align-items: center;
+      border-bottom: 1px solid #e0dede;
+      .view_blog_username {
+        margin-left: 3%;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: flex-start;
+        .txt_blog_name {
+          font-family: sans-serif;
+          font-weight: 600;
+          font-size: 18px;
+          color: #191919;
+        }
+        .txt_blog_username {
+          font-family: sans-serif;
+          font-size: 14px;
+          color: #aaaaaa;
+        }
+      }
+      .img_blog__header_profile {
+        height: 40px;
+        width: 40px;
+        display: flex;
+        margin-left: 1%;
+      }
+      .view_card_menu {
+        height: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+
+        .img_blog_header_menu {
+          height: 20px;
+          width: 20px;
+          justify-content: flex-end;
+          align-items: flex-end;
+          margin-right: 5%;
+        }
+      }
+    }
+  }
+}

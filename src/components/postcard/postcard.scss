@@ -64,7 +64,7 @@
     }
   }
   .view_card {
-    height: 73%;
+    height: 80%;
     padding-bottom: 3%;
     width: 50%;
     display: flex;
@@ -117,8 +117,8 @@
       align-items: flex-end;
 
       .img_card_header_menu {
-        height: 30px;
-        width: 30px;
+        height: 20px;
+        width: 20px;
         justify-content: flex-end;
         align-items: flex-end;
       }
@@ -204,6 +204,18 @@
     width: 100%;
     display: flex;
     flex-direction: column;
+    .view_card_img {
+      height: 14px;
+      width: 90%;
+      display: flex;
+      justify-content: flex-end;
+      align-content: flex-end;
+      .img_card_comment_menu {
+        height: 20px;
+        width: 20px;
+        margin-top: 2%;
+      }
+    }
     .view_division {
       height: 25px;
       width: 50%;

@@ -76,6 +76,13 @@
           v-for="comment in comments"
           :key="comment.id"
         >
+          <div class="view_card_img">
+            <img
+              class="img_card_comment_menu"
+              src="../../assets/images/menu.png"
+              id="menu"
+            />
+          </div>
           <div class="view_card_comment_first">
             <span class="txt_comment_email">{{ comment.email }}</span>
             <span class="txt_comment_body">{{ comment.body }}</span>
