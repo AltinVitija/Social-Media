@@ -24,14 +24,12 @@
           <router-link class="txt_profili" to="/ProfilePage"
             >Profili</router-link
           >
-          <router-link class="txt_postpage" to="/PostPage">PostPage</router-link>
+          <router-link class="txt_postpage" to="/PostPage"
+            >PostPage</router-link
+          >
         </div>
       </div>
-      <!-- <router-link to="/profilePage">ProfilePage</router-link>
-      <router-link to="/postpage">Postimet</router-link>
-      <router-view /> -->
     </div>
-
     <div class="view_card">
       <div class="view_right">
         <div class="view_right_right">
@@ -90,25 +88,15 @@
 
 <script>
 import axios from "axios";
-import { useRouter } from "vue-router";
 export default {
   name: "ProfileCard",
-
   data() {
     return {
       users: [],
       loaded: false,
     };
   },
-  setup() {
-    const router = useRouter();
-    function goToAbout() {
-      router.push("/about");
-    }
-    return {
-      goToAbout,
-    };
-  },
+
   created() {
     axios
       .get("https://jsonplaceholder.typicode.com/users/1")

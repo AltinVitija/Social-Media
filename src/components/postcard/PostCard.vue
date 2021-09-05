@@ -4,14 +4,11 @@
 
 <template>
   <div class="container">
-    <!-- top -->
     <div class="view_header">
       <router-link to="/ProfilePage">
         <img class="userimg" src="../../assets/images/user.png" id="profile" />
       </router-link>
     </div>
-    <!-- middle -->
-
     <div class="view_middle">
       <div class="view_input">
         <img
@@ -28,12 +25,10 @@
         />
       </div>
 
-      <!-- view-card -->
       <div class="view_card">
         <!-- v-on:formSubmit.prevent="formSubmit"
         v-for="(post, index) in posts.post"
         :key="index" -->
-
         <div class="view_card_header">
           <img
             class="img_card__header_profile"
@@ -97,7 +92,6 @@
           >Shiko më shumë komente</span
         >
       </div>
-      <!-- view-card -->
     </div>
   </div>
 </template>
