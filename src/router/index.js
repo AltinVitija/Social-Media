@@ -6,7 +6,7 @@ import ProfilePage from "../views/profile/ProfilePage.vue"
 const routes = [
 {
     
-  path:"/HomePage",
+  path:"/",
   name:"HomePage",
   props:true,
   component:HomePage,
