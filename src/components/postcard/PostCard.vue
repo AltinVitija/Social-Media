@@ -25,7 +25,7 @@
         />
       </div>
 
-      <div class="view_card">
+      <div class="view_card" v-for="post in posts" v-bind:key="post.id">
         <!-- v-on:formSubmit.prevent="formSubmit"
         v-for="(post, index) in posts.post"
         :key="index" -->

@@ -24,10 +24,9 @@ const routes = [
   {
    path:"/ProfilePage",
    name:"ProfilePage",
-  props:true,
-  component:ProfilePage,
-  
- 
+   props:true,
+   component:ProfilePage,
+
   },
 
   
